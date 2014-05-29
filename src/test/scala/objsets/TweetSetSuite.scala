@@ -87,7 +87,7 @@ class TweetSetSuite extends FunSuite {
         assert(result.retweets == -100)
       } catch {
         case e:java.util.NoSuchElementException => assert(true)
-        case _ => assert(false)
+        //case _ => assert(false)
       }
     }
 
